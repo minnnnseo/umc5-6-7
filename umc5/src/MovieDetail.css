@@ -1,0 +1,32 @@
+.movie-detail-container {
+    display: flex;
+    margin: 50px 150px;
+  }
+  
+  .movie-poster {
+    flex-shrink: 0;
+  }
+  
+  .movie-poster img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-details h2 {
+    margin: 0;
+  }
+  
+  .not-found-container {
+    margin: 50px 150px;
+  }
+  
+  .to-main-page {
+    color: red;
+    text-decoration: none;
+  }
